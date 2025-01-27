@@ -1,0 +1,573 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+
+header {
+    border: 0px;
+    padding-bottom: 0px;
+}
+
+.header-mid {
+    padding: 0px 10px;
+}
+
+.header-mid>ul {
+    display: none;
+}
+
+.header-mid>i {
+    display: block;
+    font-size: 20px;
+}
+
+#main {
+    padding: 0px;
+}
+
+.main-mid {
+    flex-direction: column;
+    padding: 15px;
+}
+
+.main-left {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.main-left>h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.search-bar {
+    width: 210px;
+}
+
+.search-bar>button {
+    padding: 10px 15px;
+}
+
+.main-right {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding-top: 210px;
+}
+
+.facility-mid {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.facility-items p {
+    font-size: 14px;
+}
+
+.facility-items h3 {
+    font-size: 14px;
+    margin: 5px 0px;
+}
+
+#place {
+    margin: 0px;
+    padding: 0px 15px;
+}
+
+#place>h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.place-mid {
+    flex-direction: column;
+}
+
+.place-left {
+    flex-basis: 100%;
+    padding-top: 200px;
+}
+
+.place-right {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.place-right-item1 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.place-right-item2 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.place-right-item3 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.place-right-item4 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.place-right-item5 {
+    flex-basis: 100%;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.place-right-item6 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+#country {
+    margin: 0px;
+    padding: 15px;
+}
+
+#country>h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.country-item1 {
+    flex-basis: 100%;
+}
+.country-item2 {
+    flex-basis: 100%;
+}
+.country-item3 {
+    flex-basis: 100%;
+}
+.country-item4 {
+    flex-basis: 100%;
+}
+.country-item5 {
+    flex-basis: 100%;
+}
+.country-item6 {
+    flex-basis: 100%;
+}
+
+#theme {
+    padding: 15px;
+    margin: 0px;
+}
+
+#theme>h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.theme-item1 {
+    flex-basis: 100%;
+}
+.theme-item2 {
+    flex-basis: 100%;
+}
+.theme-item3 {
+    flex-basis: 100%;
+}
+.theme-item4 {
+    flex-basis: 100%;
+}
+.theme-item5 {
+    flex-basis: 100%;
+}
+.theme-item6 {
+    flex-basis: 100%;
+}
+
+#pick {
+    padding: 0px 15px;
+}
+#pick>h2 {
+    font-size: 25px;
+    text-align: center;
+}
+.pick-items {
+    flex-basis: 100%;
+}
+.pick-content {
+    margin-top: 30px;
+}
+
+#plans {
+    padding: 0px 15px;
+}
+#plans>h2 {
+    font-size: 25px;
+    text-align: center;
+}
+.plans-item1 {
+    flex-basis: 100%;
+}
+.plans-item1>i {
+    display: none;
+}
+.plans-item2 {
+    flex-basis: 100%;
+}
+.plans-item3 {
+    flex-basis: 100%;
+}
+.plans-item3>i {
+    display: none;
+}
+
+.post-items {
+    flex-basis: 100%;
+}
+.post-items>img {
+    height: 40%;
+}
+
+.subscribe {
+    margin-top: 20px;
+    padding: 0px 10px;
+    flex-direction: column;
+}
+.subscribe>input {
+    width: 265px;
+}
+
+footer {
+    padding: 15px;
+}
+
+.review {
+    width: 100%;
+    align-items: center;
+    height: auto;
+    gap: 5px;
+    padding: 0px 10px;
+    padding-bottom: 5px;
+}
+
+.review>img {
+    width: 70px;
+}
+
+.review>h3 {
+    padding: 10px 0px;
+    align-self: center;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.review-items {
+    flex-direction: column;
+}
+
+.review-items>ul {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.end1 {
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.end1>h4 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.end-mid {
+    flex-direction: column;
+}
+.end-mid>h3 {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.end-mid>h4 {
+    text-align: center;
+    font-size: 16px;
+}
+
+/*    india tour page    */
+
+.search-outer {
+    display: none;
+}
+.spans {
+    padding: 10px 15px;
+}
+.main-2-left {
+    display: none;
+}
+
+.main-2-right {
+    flex-basis: 100%;
+}
+
+.main-2-right-items {
+    flex-basis: 100%;
+}
+
+
+
+
+}
+
+
+
+@media only screen and (min-width:576px) and (max-width:1200px) {
+
+.header-mid {
+    padding: 0px 10px;
+}
+
+.header-mid>ul {
+    gap: 15px;
+}
+
+#main {
+    padding: 20px;
+}
+
+.main-mid {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.main-left {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+
+.search-bar {
+    width: 500px;
+}
+
+.search-bar>button {
+    padding: 10px 20px;
+}
+
+.search-bar>h2 {
+    text-align: center;
+}
+
+
+.main-right {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    padding-top: 200px;
+}
+
+.facility-mid {
+    justify-content: center;
+    padding: 20px;
+}
+
+.facility-items {
+    flex-basis: 100%;
+}
+
+#place>h2 {
+    text-align: center;
+}
+.place-mid {
+    flex-direction: column;
+}
+.place-left {
+    flex-basis: 100%;
+    height: 500px;
+    padding-top: 200px;
+}
+.place-right {
+    justify-content: space-between;
+    gap: 20px;
+}
+.place-right-item1 {
+    flex-basis: 48%;
+    margin: 0px;
+}
+.place-right-item2 {
+    flex-basis: 48%;
+    margin: 0px;
+}
+.place-right-item3 {
+    flex-basis: 48%;
+    margin: 0px;
+}
+.place-right-item4 {
+    flex-basis: 48%;
+    margin: 0px;
+}
+.place-right-item5 {
+    flex-basis: 48%;
+    margin: 0px;
+}
+.place-right-item6 {
+    flex-basis: 48%;
+    margin: 0px;
+}
+
+#country {
+    padding: 20px;
+}
+.country-mid {
+    justify-content: center;
+}
+#country>h2 {
+    text-align: center;
+}
+.country-item1 {
+    flex-basis: 30%;
+}
+.country-item2 {
+    flex-basis: 30%;
+}
+.country-item3 {
+    flex-basis: 30%;
+}
+.country-item4 {
+    flex-basis: 30%;
+}
+.country-item5 {
+    flex-basis: 30%;
+}
+.country-item6 {
+    flex-basis: 30%;
+}
+
+#theme {
+    padding: 20px;
+}
+#theme>h2 {
+    text-align: center;
+}
+.theme-mid {
+    justify-content: center;
+}
+.theme-item1 {
+    flex-basis: 30%;
+}
+.theme-item2 {
+    flex-basis: 30%;
+}
+.theme-item3 {
+    flex-basis: 30%;
+}
+.theme-item4 {
+    flex-basis: 30%;
+}
+.theme-item5 {
+    flex-basis: 30%;
+}
+.theme-item6 {
+    flex-basis: 30%;
+}
+
+#pick>h2 {
+    text-align: center;
+}
+.pick-mid {
+    justify-content: center;
+}
+.pick-items {
+    flex-basis: 45%;
+}
+
+
+#plans {
+    padding: 0px 20px;
+}
+#plans>h2 {
+    text-align: center;
+}
+.plans-mid {
+    justify-content: center;
+}
+.plans-item1 {
+    flex-basis: 100%;
+}
+.plans-item2 {
+    flex-basis: 100%;
+}
+.plans-item3 {
+    flex-basis: 100%;
+}
+.plans-item1>i {
+    display: none;
+}
+.plans-item3>i {
+    display: none;
+}
+
+
+.post-items {
+    flex-basis: 100%;
+    height: 600px;
+}
+.post-items>img {
+    height: 70%;
+}
+
+
+footer {
+    padding: 20px;
+}
+.review-items>ul {
+    margin: 0px;
+    flex-basis: 100%;
+}
+.review-items {
+    flex-direction: column;
+}
+.end1 {
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.end1>h4 {
+    font-weight: normal;
+    font-size: 18px;
+}
+.end-mid {
+    flex-direction: column;
+}
+.end-mid>h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.end-mid>h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.li-des {
+    display: none;
+}
+
+.li-des-2 {
+    display: none;
+}
+
+/*    india page section     */
+
+.spans {
+    padding: 15px;
+}
+.search-outer {
+    display: none;
+}
+.main-2-mid {
+    gap: 20px;
+}
+.main-2-right-items {
+    flex-basis: 100%;
+}
+
+
+}

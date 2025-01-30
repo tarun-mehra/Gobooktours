@@ -15,8 +15,11 @@
             <div class="logo">
                 <img src="images/logo.png" alt="">
             </div>
-            <i class="fa-solid fa-bars"></i>
-            <ul>
+            <i class="fa-solid fa-bars icon"></i>
+            <ul class="uls">
+                <div class="logo mobilelogo">
+                    <img src="images/logo.png" alt="">
+                </div>
                 <li>Destinations <i class="fa-solid fa-angle-down"></i>
                     <div class="li-des">
                         <h2>All Destinations</h2>
@@ -486,4 +489,25 @@
         </div>
     </footer>
 </body>
+<script>
+
+    let iconElement=document.querySelector(".icon")
+    let ulElement=document.querySelector(".uls")
+    let mobileicon=document.querySelector(".mobilelogo")
+    
+    iconElement.addEventListener("click",function(){
+        ulElement.classList.add("showdata")
+    })
+
+    mobileicon.addEventListener("click",function(){
+        ulElement.classList.remove("showdata")
+    })  
+
+    let firstElement=document.querySelector(".first-item")
+
+    firstElement.addEventListener("click",function(){
+        alert("hello")
+    })
+
+</script>
 </html>

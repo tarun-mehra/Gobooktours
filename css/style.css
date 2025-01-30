@@ -16,6 +16,7 @@ header {
 }
 
 .header-mid {
+    padding: 0px 20px;
     max-width: 1320px;
     margin: auto;
     display: flex;
@@ -30,6 +31,10 @@ header {
 
 .logo>img {
     width: 100%;
+}
+
+.mobilelogo {
+    display: none;
 }
 
 .header-mid>ul {
